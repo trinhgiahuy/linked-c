@@ -9,5 +9,6 @@ int main()
     for( auto i : ia ) {
         printf("i is %d\n", i);
     }
+    printf("MSC version is %d\n", _MSC_VER);
     return 0;
 }
